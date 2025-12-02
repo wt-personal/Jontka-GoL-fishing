@@ -1,0 +1,12 @@
+--- Fishing records ---
+
+Coins:    2
+Baits:   23
+
+--- Fishes          ---
+Perches:  5
+Pikes:    0
+Bleaks:   2
+Trouts:   0
+
+Total amount of fish =  7
