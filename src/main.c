@@ -11,12 +11,11 @@
  * @brief Main program file for gol V2 
  * @date 2025-11-30
  * @details Jontka is a fishing game based on John Conway's Game of Life cell evolution.
- * Link to this project Git https://git.vamk.fi/e2403299/GoL-V2-idea.git
  * 
  * -This code is based on Raylib example below:
  *       https://github.com/raysan5/raylib/blob/master/examples/core/core_input_keys.c
  * 
- * 
+ *  Licensed under the GNU General Public License v3.0 (GPLv3).
 */
 
 #include "header.h"
