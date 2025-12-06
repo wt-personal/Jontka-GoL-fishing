@@ -1,4 +1,4 @@
-# Jontka - Game of Life Fishing v0.9
+# Jontka - GoL Fishing v0.99
 
 By: e2403299
 
