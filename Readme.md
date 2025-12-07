@@ -17,6 +17,8 @@ Fish will spawn at random locations and evolve based on conditions.
 - Tweaks to gameplay and texts
 - Gameplay functions work only when menus are not open
 
+<img src="template.PNG" alt="o ou" width="400">
+
 
 ### What we have so far:
     - You can move around as a player  
