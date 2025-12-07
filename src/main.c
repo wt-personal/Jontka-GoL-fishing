@@ -1,10 +1,3 @@
-/*
-    GoL V2 by e2403299
-
-    -This code is based on Raylib example below:
-        https://github.com/raysan5/raylib/blob/master/examples/core/core_input_keys.c
-*/
-
 /** 
  * @file main.c
  * @author e2403299
