@@ -171,25 +171,32 @@ void fileboard_example(struct cell board[SIZE][SIZE], char *error, unsigned int 
     int randomY = rand() % 2 * (rand() % 20);
 
     int row = 0, col = 0;
+
+    // convert char to number values
+    char a = 0;
+    
     while ((ch = fgetc(fptr)) != EOF) {
         if (ch == '0' || ch == '1') {
             if (row < SIZE && col < SIZE) {
+
+                // assign different species to the board
+                a = ch - '0';
                 if(pop == Perches){
-                    if((ch - '0') == 1) board[row+randomX][col+randomX].current = 1;
-                    // else board[row][col].current = 0; // This will overwrite previous cells to zero
+                    if(a) board[row+randomX][col+randomX].current = pop - 1;
+
                 }
                 else if(pop == Pikes){
-                    if((ch - '0') == 1) board[row+randomX][col+randomY].current = 2;
+                    if(a) board[row+randomX][col+randomY].current = pop - 1;
                     
                 }
                 else if(pop == Bleaks){
-                    if((ch - '0') == 1) board[row+randomX][col+randomY].current = 3;
+                    if(a) board[row+randomX][col+randomY].current = pop - 1;
                     
                 }
                 
                 else if(pop == Trouts){
-                    if((ch - '0') == 1) board[row+randomX][col+randomY].current = 4;
-                    
+                    if(a) board[row+randomX][col+randomY].current = pop - 1;
+                
                 }
                 col++;
             }
@@ -298,7 +305,7 @@ int mousePressOptions(Vector2 mousePos, int Optionsmenu){
 }
 
 /**
- * @brief reset board with random zeros
+ * @brief reset board with all zeros
  * @param board 
  */
 void reset_board(struct cell board[SIZE][SIZE]){
