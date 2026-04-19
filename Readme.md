@@ -1,6 +1,5 @@
 # Jontka - GoL Fishing v0.9
 
-By: e2403299
 
 Jontka is a fishing game based on John Conway's Game of Life cell evolution, but with a little twist.  
 Your goal is to catch different kinds of fish — good luck, and tight lines!
